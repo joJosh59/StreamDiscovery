@@ -1,0 +1,22 @@
+.navbarPrincipal{
+    width: 98.2%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    background-color: blueviolet;
+  }
+
+.navbarSecond{
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbarSecond a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
