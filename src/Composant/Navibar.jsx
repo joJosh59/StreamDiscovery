@@ -7,7 +7,7 @@ function Navibar() {
     <div  className='navbarPrincipal'>
            
         {/* Ne pas oublier le logo */}
-            <a href=""><img src="Logo.svg" alt="" /></a>
+            <a href="/"><img className='logo' src="LogoSD.svg" alt="Logo streamdiscover" /></a>
             <div className='navbarSecond'>
                 <a href="">Films</a>
                 <a href="">Series</a>

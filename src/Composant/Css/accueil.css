@@ -1,0 +1,64 @@
+.tendance{
+    width: 98%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #00bbd460;
+    color: white;
+}
+
+.card-tendance{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cardF{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardS{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.cardF h2{
+    background-color: rgb(255, 110, 96);
+    border: 1px solid #37474F;
+    border-radius: 50%; 
+    width: 5%;
+    height: 3rem;
+}
+.cardS h2{
+    background-color: rgb(255, 110, 96);
+    border: 1px solid #37474F;
+    border-radius: 50%; 
+    width: 5%;
+    height: 3rem;
+}
+
+.flfilm{
+    display: flex;
+    padding: 2%;
+    gap: 0.5%;
+    
+}
+.flserie{
+    display: flex;
+    padding: 2%;
+    gap: 2.5%;
+    
+}
+
+
+
+
