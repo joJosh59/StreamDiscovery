@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import './Css/accueil.css'
-import Carousel from "react-bootstrap/Carousel";
 import { useDispatch, useSelector } from "react-redux";
 import { tendanceFilm, tendanceSerie } from "./Redux/action";
-import { Card } from "react-bootstrap";
+
 
 function Accueil(){
     const dispatch = useDispatch();
@@ -15,9 +14,6 @@ function Accueil(){
         dispatch(tendanceFilm());
         dispatch(tendanceSerie());
     }, [dispatch]);
-
-    console.log(trendFilm);
-    console.log(trendSerie);
 
     return(
         <>

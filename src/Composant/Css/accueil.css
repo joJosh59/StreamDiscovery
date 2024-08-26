@@ -20,13 +20,13 @@
 .cardF{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .cardS{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     
 }
@@ -49,13 +49,13 @@
 .flfilm{
     display: flex;
     padding: 2%;
-    gap: 0.5%;
+    gap: 0.1%;
     
 }
 .flserie{
     display: flex;
     padding: 2%;
-    gap: 2.5%;
+    gap: 0.1%;
     
 }
 
